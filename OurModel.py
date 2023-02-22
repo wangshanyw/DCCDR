@@ -145,6 +145,7 @@ class OurModel(torch.nn.Module):
             layer_embs.append(all_embs)
             factor_embedding = torch.cat([all_embs[0], all_embs[1]], dim=1)
             embs.append(factor_embedding)
+            all_emb = factor_embedding
         embs = torch.stack(embs, dim=1)
         light_out = torch.mean(embs, dim=1)
         users, items = torch.split(light_out, [n_users, n_items])

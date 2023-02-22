@@ -63,7 +63,7 @@ def parse_args():
 
     parser.add_argument('--keep_prob', type=float, default=0.6, help='keep_prob of dropout in lightgcn')
     parser.add_argument('--A_split', type=bool, default=False, help='a_split')
-    parser.add_argument('--model', nargs='?', default='dgcdr', help='rec-model')
+    parser.add_argument('--model', nargs='?', default='dccdr', help='rec-model')
     return parser.parse_args()
 
 
