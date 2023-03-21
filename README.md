@@ -1,6 +1,6 @@
 # DCCDR
 
-Codes for paper [Disentangled Contrastive Learning for Cross-Domain Recommendation].
+Code for paper [Disentangled Contrastive Learning for Cross-Domain Recommendation].
 
 Accepted by DASFAA 2023.
 
